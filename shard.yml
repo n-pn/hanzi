@@ -1,0 +1,9 @@
+name: hanzi
+version: 0.1.0
+
+authors:
+  - Nipinium <nipinium@gmail.com>
+
+crystal: 0.27.2
+
+license: MIT
