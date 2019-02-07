@@ -1,14 +1,13 @@
-module Hanzi
-  INPUT = File.join __DIR__, "../../priv/tones.txt"
-  TONES = File.read_lines(INPUT).map{|line| line.split("=", 2)}.to_h
+require "./pinyin/tones"
 
+module Hanzi
   module Pinyin
     def self.number_to_tone(pinyin)
       pinyin
       .downcase
       .gsub("u:", "ü")
       .split(/[\s\-]/x)
-      .map{ |word| TONES.fetch(word, word) }
+      .map{ |word| PINYIN_TONES.fetch(word, word) }
       .join(" ")
     end
   end
