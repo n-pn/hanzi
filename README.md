@@ -1,6 +1,6 @@
-# hanzi
+# Hanzi
 
-TODO: Write a description here
+Utilities for dealing with chinese characters
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      hanzi:
-       github: your-github-user/hanzi
+       github: nipinium/hanzi
    ```
 
 2. Run `shards install`
@@ -18,22 +18,12 @@ TODO: Write a description here
 
 ```crystal
 require "hanzi"
+
+# Convert pinyin numbers to tone marks
+puts Hanzi::Pinyin.number_to_tone("pin1 yin1")
+# => "pīn yīn"
 ```
 
-TODO: Write usage instructions here
+## LICENSE
 
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/hanzi/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [Nipinium](https://github.com/your-github-user) - creator and maintainer
+MIT

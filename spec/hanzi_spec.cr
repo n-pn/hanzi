@@ -1,9 +1,7 @@
 require "./spec_helper"
 
 describe Hanzi do
-  # TODO: Write tests
-
-  it "works" do
-    false.should eq(true)
+  it "correct convert pinyin numbers tones" do
+    Hanzi::Pinyin.number_to_tone("pin1 yin1").should eq("pīn yīn")
   end
 end

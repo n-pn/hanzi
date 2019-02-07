@@ -1,6 +1,5 @@
-# TODO: Write documentation for `Hanzi`
+require "./hanzi/pinyin"
+
 module Hanzi
   VERSION = "0.1.0"
-
-  # TODO: Put your code here
 end
