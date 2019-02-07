@@ -2048,5 +2048,6 @@ PINYIN_TONES = {
   "nun2"=>"nún",
   "den4"=>"dèn",
   "dia3"=>"diǎ",
-  "fiao4"=>"fiào"
+  "fiao4"=>"fiào",
+  "xx5"=>"xx",
 }
