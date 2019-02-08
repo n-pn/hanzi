@@ -22,6 +22,10 @@ require "hanzi"
 # Convert pinyin numbers to tone marks
 puts Hanzi::Pinyin.number_to_tone("pin1 yin1")
 # => "pīn yīn"
+
+# Translate hanzi to pinyin
+puts Hanzi::Pinyin.hanzi_to_pinyin("节操")
+# => "jié cāo"
 ```
 
 ## LICENSE
