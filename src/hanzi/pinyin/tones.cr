@@ -2051,5 +2051,11 @@ module Hanzi
     "dia3"    => "diǎ",
     "fiao4"   => "fiào",
     "xx5"     => "xx",
+    "ging1"   => "gīng",
+    "ging2"   => "gíng",
+    "ging3"   => "gǐng",
+    "ging4"   => "gìng",
+    "ging5"   => "ging",
+    "biu1"    => "biū",
   }
 end
